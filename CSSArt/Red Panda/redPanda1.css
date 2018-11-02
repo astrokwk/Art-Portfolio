@@ -292,35 +292,3 @@ position: relative;
 	position: relative;
 	z-index: 1;
 }
-
-.tail {
-	position: absolute;
-	top: 0px;
-	left: -12%;
-	border-bottom: 240px solid rgba(247,92,45,.9);
-	border-left: 10px solid transparent;
-	border-right: 20px solid transparent;
-	height: 0;
-	width: 70px;
-	border-bottom-left-radius: 50px;
-	border-bottom-right-radius: 50px;
-	transform: rotate(100deg) translateY(-580px) translateX(-300px);
-	z-index: -100;
-	
-	
-/*
-	
-	animation-timing-function: ease;
-*/
-	transform-origin: -50% 90%;
-	animation: 5s; 
-	
-}
-
-@keyframes wink {
-    0%   {top: 0px;}
-    25%  {top: 15px;}
-    50%  {top: 10px;}
-    75%  {top: 25px;}
-    100% {top: 0px;}
-}

@@ -1,0 +1,129 @@
+body {
+	background-color: #E3B88B;
+	background-image: url(Kamikakushi.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+
+.container {
+	position: relative;
+	width: 500px;
+	margin: auto;
+	margin-top: 10%;
+/*	text-align: center;*/
+}
+
+.body,
+.body2,
+.face,
+.eyeMark,
+.eye,
+.left,
+.left2,
+.right,
+.right2,
+.eyeMark2,
+.mouth
+{
+	box-sizing: border-box;
+	display: inline-block;
+	position: absolute;
+  left: 70%;
+  transform: translateX(-50%);
+	top: 60px;
+}
+
+.body {
+/*	background-color: black;*/
+/*	background-image: linear-gradient(black, transparent);*/
+	background: linear-gradient(to bottom, rgba(0,0,0,.9) 55%, transparent 100%);
+	width: 130px;
+	height: 230px;
+	border-radius: 80px 80px 10px 10px;
+/*	transition: background 1s ease-out;*/
+/*	opacity: 1;*/
+}
+
+.body2 {
+	width: 130px;
+	height: 270px;
+	left: 65px;
+	top: 125px;
+background-image: linear-gradient(to bottom, rgba(0,0,0,.7) 45%, transparent 100%);
+	opacity: 1; 
+	transition: opacity .8s ease-in;
+}
+
+.body:hover {
+/*	background: linear-gradient( black, transparent);*/
+	transition: background 1.0s ease-in-out;
+/*	opacity: .2;*/
+}
+
+.body:hover .body2 {
+opacity: 0;
+	
+}
+
+.face {
+	background-color: white;
+	width: 85px;
+	height: 110px;
+	border-radius: 50% 50% 55% 55% / 40% 40% 50% 50%;
+	top: 10px;
+	left: 65px;
+}
+
+.eyeMark {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 18px 5px;
+  border-color: transparent transparent indianred transparent;
+	top: 18px;
+}
+
+.left {
+	left: 18px;
+}
+
+.left2 {
+	left: 16px;
+}
+
+.right {
+	left: 67px;
+}
+
+.right2 {
+	left: 68px;
+}
+
+.eye {
+	width: 18px;
+	height: 12px;
+	background-color: black;
+	border-radius: 80%;
+	top: 40px;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .6);
+}
+
+.eyeMark2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 5px 0 5px;
+  border-color: indianred transparent transparent transparent;
+	top: 58px;
+}
+
+.mouth {
+	width: 25px;
+	height: 8px;
+	background-color: black;
+	border-radius: 50%;
+	top: 90px;
+	left: 44px;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .6);
+}
