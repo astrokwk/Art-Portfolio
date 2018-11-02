@@ -1,0 +1,105 @@
+body{
+	text-align: center;
+	background-color: #d2b48c;
+}
+
+.catHead {
+	background-color: #292928;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 50px;
+}
+.catEar1 {
+	height: 0;
+	width: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 100px solid #292928;
+	transform: rotate(-40deg) translate(-10px, -40px);
+	border-top-left-radius: 30%;
+}
+.catEar2 {
+	height: 0;
+	width: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 100px solid #292928;
+	transform: rotate(40deg) translate(60px, -195px) translateY(21px) translateX(-40px);
+	display: inline-block;
+}
+.catEye1 {
+	background-color: greenyellow;
+	height: 40px;
+	width: 60px;	
+	border-radius: 50%;
+	transform: translate(60px, -90px);
+}
+.catEye2 {
+	background-color: greenyellow;
+	height: 40px;
+	width: 60px;	
+	border-radius: 50%;
+	transform: translate(90px, -129px);
+	display: inline-block
+}
+.catPupil {
+	background-color: black;
+	height: 30px;
+	width: 35px;
+	border-radius: 50%;
+	margin: auto;
+}
+.catNose {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 20px solid pink;
+	display: inline-block;
+	transform: translateY(-80px) translateX(-30px);
+}
+.catMouth {
+	border-bottom: 30px solid #FF5141;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 50px;
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+	transform: translateY(-60px) translateX(106px);
+}
+
+.teeth {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #FAF1F9;
+}
+#teeth2 {
+	transform: translateY(-10px) translateX(30px);
+}
+
+
+/*-------------------------------------------
+             cat body
+------------------------------------------*/
+
+.catBody {
+	height: 0;
+	width: 130px;
+	margin: auto;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 300px solid #292928;
+	transform: translateY(-30px);
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+
+
+h1 {
+	font-family: cursive;
+}
