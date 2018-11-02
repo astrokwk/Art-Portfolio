@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Candal');
+
+body{
+    background-color: #fffff0;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Candal', sans-serif;
+    font-size: 3em;
+    color: #6aaf6a;
+    text-shadow: 2px 2px #e5e500;
+}
+
+/*---------------------------CARD-----------------*/
+#card {
+    background-color: #AFEEEE;
+    height: 750px;
+    width: 500px;
+    border-radius: 4%;
+    margin: 0 auto;
+    border: 15px solid #00CED1;
+    position: relative;
+    z-index: -1;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/*----------------Name Place-------------------------------*/
+
+
+.nameTag{
+    margin: 20px;
+}
+
+#icon {
+    background-color: #F4A460;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    z-index: 1;
+}
+
+#leaf {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 5px;
+    bottom: 5px;
+}
+
+.nameHolder {
+    background-color: #FFF8DC;
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    color: #fa9eae;
+    font-size: 4em;
+    letter-spacing: 15px;
+    margin-right: 5px;
+    text-shadow: 2px 2px #EE3B3B;
+}
+
+/*--------------------------Image Holder-----------------*/
+
+.imgHolder {
+    background: repeating-linear-gradient(-45deg,#fa9eae, #fa9eae 5px, #ffe9ec 5px, #ffe9ec 30px);
+   /* background-color: #fa9eae; */
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 140px;
+    position: relative;
+    z-index: 1;
+    border: solid 4px #fa9eae;
+}
+
+#reese {
+    width: 200px;
+    height: 350px;
+    position: relative;
+    z-index: 200;
+    left: 25%;
+    bottom: 10%;
+}
+
+/*---------------Info Box---------------------*/
+
+.info {
+    width: 380px;
+    height: 225px;
+    background-color: #e0ffff;
+    border: solid 4px #00CED1;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    color: #330000;
+}
+
+
+
+
+
+
+
+/*-----------------BACK CONTENT------------------*/
+#back {
+    background-color: #ffb6c1;
+    border-radius: 4%;
+    border: 15px solid #EE3B3B;
+    position: relative;
+    z-index: -1;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#cyName {
+    color: #91d6d6;
+    text-shadow: 2px 2px #007FFF;
+}
+
+#cyImageHolder {
+    background: repeating-linear-gradient(-45deg, #67E6EC, #67E6EC 5px, #e0ffff 5px, #e0ffff 30px);
+    border: solid 4px #67E6EC;
+}
+
+#cyrus {
+    width: 200px;
+    height: 365px;
+    position: relative;
+    z-index: 200;
+    left: 25%;
+    bottom: 14.5%;
+}
+
+#cycle {
+    background-color: #ffe9ec;
+    border: solid 4px #EE3B3B;
+}
+
+
+/*-------Animation-------------*/
+
+
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, #front, #back {
+    height: 750px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.9s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+#card, #back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+#card {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+#back {
+	transform: rotateY(180deg);
+}
+
+
+
+
+footer {
+    position: absolute;
+	right: 0;
+	top: 950px;
+	left: 0;
+	text-align: center;
+    height: -75%;
+    color: tomato;
+}
+
