@@ -162,7 +162,8 @@
 .love::after,
 .love2,
 .love2::before,
-.love2::after 
+.love2::after,
+.click
 {
 	box-sizing: border-box;
 	display: inline-block;
@@ -564,8 +565,6 @@ content: "";
 	top: 2px;
 }
 
-
-
 .cheek-pink {
 	background-color: #FAA85F;
 	width: 40px;
@@ -574,7 +573,13 @@ content: "";
 	top: 28%;
 }
 
-
+.click {
+	bottom: -280%;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #DF85A1;
+	font-weight: 600;
+}
 
 
 
