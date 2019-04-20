@@ -1,0 +1,25 @@
+.container {
+  background-color: red;
+  width: 130px;
+  height: 300px;
+  z-index: 9999;
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  /* margin: auto; */
+  left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.astronaunt {
+  background-color: white;
+  width: 100px;
+  height: 200px;
+  left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+position: absolute;
+}
