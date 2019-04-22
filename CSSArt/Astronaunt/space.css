@@ -116,17 +116,17 @@ body {
         border-radius: 2px;
         -webkit-box-shadow: 0 0 2px 1px white;
                 box-shadow: 0 0 2px 1px white;
-        -webkit-animation: twinkle_two 10s ease-in-out infinite;
-           -moz-animation: twinkle_two 10s ease-in-out infinite;
+        -webkit-animation: twinkle_two 9s ease-in-out infinite;
+           -moz-animation: twinkle_two 9s ease-in-out infinite;
              -o-animation: twinkle_two 9s ease-in-out infinite;
                 animation: twinkle_two 9s ease-in-out infinite;
       }
       .star.star-type3{
-        width: 2px;
-        height: 2px;
+        width: 3px;
+        height: 3px;
         border-radius: 2px;
-        -webkit-box-shadow: 0 0 2px 0 white;
-                box-shadow: 0 0 2px 0 white;
+        -webkit-box-shadow: 0 0 4px 0 white;
+                box-shadow: 0 0 4px 0 white;
         /* -webkit-animation: twinkle_three 7s ease-in-out infinite;
            -moz-animation: twinkle_three 7s ease-in-out infinite;
              -o-animation: twinkle_three 7s ease-in-out infinite;
