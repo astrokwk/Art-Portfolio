@@ -25,32 +25,4 @@ var generateStars = function(){
 generateStars();
 
 
-// var gameScreen = $('#img-area')
-// var newWidth = 120;
-// var newHeight = 180;
-
-// function spawnShip(game) {
-//   var X = Math.floor(Math.random() * windowWidth)
-//   var Y = Math.floor(Math.random() * windowHeight)
-  
-//   var ship = $(document.createElement('div'))
-//   ship.addClass('attacking-door')
-//   ship.css({
-//     top: X,
-//     left: Y,
-//     position: 'absolute'
-//   })
-//   ship.click(function() {
-//   	this.remove()
-//   })
-  
-//   game.append(ship)
-  
-//   setTimeout(function(){
-//   	ship.addClass( "animate-me" );
-//   }, 16 );
-// }
-
-// setInterval(function() {
-// 	spawnShip(gameScreen)
-// }, 3000)
+// console.log('https://jsfiddle.net/psullivan6/ma6e78m0/');
