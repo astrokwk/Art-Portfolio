@@ -2,25 +2,69 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/* font-size: 100%; */
-	/* font: inherit; */
   vertical-align: baseline;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
   box-sizing: border-box;
-  background-color: #0E3E4E;
+  background-color: rgb(250, 232, 225);
 }
 
-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
+.container {
+  padding: 30px 0px;
+}
+
+h1 {
+  background-color: #333333;
+  color: white !important;
+  padding: 10px 30px;
+  display: inline-block;
+}
+
+svg {
+  margin-left: 10px;
 }
 
 img {
-  width: 250px;
+  width: 300px;
   height: 250px;
   object-fit: cover;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+}
+
+/* img:hover {
+  object-fit: contain;
+} */
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.col-md-6:hover img {
+  opacity: 0.3;
+}
+
+.col-md-6:hover .middle {
+  opacity: 1;
+}
+
+.fas {
+  font-size: 50px;
+  color: RGB(77, 10, 0);
+}
+
+.fas:hover {
+  color: rgb(250, 124, 75);
 }
